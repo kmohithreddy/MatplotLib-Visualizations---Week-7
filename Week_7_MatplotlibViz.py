@@ -9,20 +9,15 @@ Original file is located at
 # Matplotlib Traffic Network Graph
 """
 
-from google.colab import drive
-
-# Mount Google Drive
-drive.mount('/content/drive')
-
 """## Data Importation"""
 
 import pandas as pd
 
-file_path_1 = '/content/drive/My Drive/Colab/traffic/transformed_segment_reports.csv'
+file_path_1 = '.../transformed_segment_reports.csv'
 segment_df = pd.read_csv(file_path_1)
 segment_df.head(10)
 
-file_path_2 = '/content/drive/My Drive/Colab/traffic/daily_traffic_los.csv'
+file_path_2 = '.../daily_traffic_los.csv'
 traffic_df = pd.read_csv(file_path_2)
 traffic_df.head(10)
 
