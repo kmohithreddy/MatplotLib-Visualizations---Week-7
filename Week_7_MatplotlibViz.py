@@ -3,11 +3,6 @@
 # Matplotlib Traffic Network Graph
 """
 
-from google.colab import drive
-
-# Mount Google Drive
-drive.mount('/content/drive')
-
 """## Data Importation"""
 
 import pandas as pd
